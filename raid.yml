@@ -1,0 +1,7 @@
+---
+- name: configure raid
+  hosts: raid
+  become: true
+  gather_facts: no
+  roles:
+    - raid
